@@ -13,11 +13,15 @@ struct ContentView: View {
           
             VStack (spacing:20){
                 Text("This is the root view 🏡")
-                NavigationLink(destination: Text("Congrats you've arrived at the 2nd view! 🥳 ")) {
+                
+                NavigationLink(destination: secondview()) {
                     Text("Click me")
                 }
 
             }
+            .navigationTitle("home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
         
     }
