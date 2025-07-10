@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BDE09B662E200C2400EDF035 /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE09B652E200C2400EDF035 /* secondview.swift */; };
+		BDE09B6A2E200EAB00EDF035 /* thirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE09B692E200EAB00EDF035 /* thirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDE09B552E2007D700EDF035 /* navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE09B652E200C2400EDF035 /* secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
+		BDE09B692E200EAB00EDF035 /* thirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		BDE09B4C2E2007D700EDF035 = {
 			isa = PBXGroup;
 			children = (
+				BDE09B692E200EAB00EDF035 /* thirdView.swift */,
 				BDE09B652E200C2400EDF035 /* secondview.swift */,
 				BDE09B572E2007D700EDF035 /* navigation */,
 				BDE09B562E2007D700EDF035 /* Products */,
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE09B6A2E200EAB00EDF035 /* thirdView.swift in Sources */,
 				BDE09B662E200C2400EDF035 /* secondview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

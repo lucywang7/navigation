@@ -15,13 +15,20 @@ struct ContentView: View {
                 Text("This is the root view 🏡")
                 
                 NavigationLink(destination: secondview()) {
-                    Text("Click me")
+                    Text("Click me for about page ")
+                
+                }
+                NavigationLink(destination:
+                                thirdView()){
+                    Text("Click me for contact page")
                 }
 
             }
             .navigationTitle("home")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarHidden(true)
+            
+           
         }
         
     }
