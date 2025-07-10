@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
           
             VStack (spacing:20){
-                Text("This is the root view 🏡")
+                Text("This is the home page 🏡")
                 
                 NavigationLink(destination: secondview()) {
                     Text("Click me for about page ")
@@ -22,7 +22,10 @@ struct ContentView: View {
                                 thirdView()){
                     Text("Click me for contact page")
                 }
-
+                NavigationLink(destination:
+                                forthView()){
+                    Text("Click me help page")
+                }
             }
             .navigationTitle("home")
             .navigationBarTitleDisplayMode(.inline)
